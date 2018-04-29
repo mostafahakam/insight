@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url("../images/landing.jpg") no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content h1{
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	text-shadow: 0px 0px 500px #000;
+	font-size: 500%;
+}
+.btn{
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 10px;
+}
+.btn:hover {
+	color: #000;
+	border: solid #000 3px;
+}

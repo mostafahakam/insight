@@ -30,14 +30,13 @@ html, body {
 .content h1{
 	font-family: 'Raleway', sans-serif;
 	color: #000;
-	text-shadow: 0px 0px 500px #000;
-	font-size: 500%;
+	font-size: 800%;
 }
 .btn{
 	border-radius: 9px;
 	font-family: 'Oswald', sans-serif;
 	color: #036A81;
-	font-size: 135%;
+	font-size: 335%;
 	padding: 10px 20px;
 	border: solid #036A81 3px;
 	text-transform: uppercase;
